@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for f in /etc/rc.local.d/*; do
+	if [ -x "$f" ]; then
+		. "$f"
+	fi
+done
+
+exit 0
+
+# madneon 2014-12-16
