@@ -1,0 +1,5 @@
+apache2
+mysql-server
+php-gettext
+phpmyadmin
+libapache2-mod-neko
