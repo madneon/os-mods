@@ -113,7 +113,7 @@ move-to-workspace-4=['<Alt><Super>F4']
 switch-to-workspace-right=@as []
 
 [org/gnome/shell/keybindings]
-toggle-message-tray=['<Super>v', '<Super>m']
+toggle-message-tray=['<Super>m']
 open-application-menu=['<Super>space']
 pause-resume-tweens=@as []
 toggle-application-view=@as []
@@ -124,6 +124,7 @@ toggle-overview=@as []
 action-middle-click-titlebar="minimize"
 button-layout="appmenu:minimize,close"
 resize-with-right-button=true
+num-workspaces=4
 
 [org/gnome/gedit/plugins]
 active-plugins="['spell', 'sort', 'modelines', 'docinfo', 'multiedit', 'codecomment', 'git', 'filebrowser', 'joinlines', 'time', 'drawspaces', 'textsize']"
@@ -196,6 +197,9 @@ bottom-panel-original-background-color='rgba(0, 0, 0, 255)'
 
 [org/gnome/shell/app-switcher]
 current-workspace-only=true
+
+[org/gnome/shell/overrides]
+dynamic-workspaces=false
 
 [org/gnome/SimpleScan]
 jpeg-quality=85
