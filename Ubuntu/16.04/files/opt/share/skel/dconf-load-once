@@ -1,0 +1,10 @@
+#!/bin/bash
+
+MYPATH=`readlink -f "$0"`
+MYPATH=`dirname "$MYPATH"`
+
+dconf load / < "$MYPATH/dconf"
+
+if [ -f "~/.config/autostart/dconf-load-once.desktop" ]; then
+	rm "~/.config/autostart/dconf-load-once.desktop"
+fi

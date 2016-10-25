@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=dconf-load-once
+GenericName=dconf-load-once
+Exec=/opt/share/skel/dconf-load-once
+Comment=dconf-load-once
+Terminal=true
+Type=Application
+Categories=Development;
+Icon=
