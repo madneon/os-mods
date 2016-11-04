@@ -44,7 +44,7 @@ if [ ! -e "$HOME/.sudo_as_admin_successful" ] && [ ! -e "$HOME/.hushlogin" ] ; t
 	cat <<-EOF
 	To run a command as administrator (user "root"), use "sudo <command>".
 	See "man sudo_root" for details.
-	
+
 	EOF
     fi
     esac
@@ -68,6 +68,4 @@ if [ -x /usr/lib/command-not-found -o -x /usr/share/command-not-found/command-no
 fi
 
 alias mc=". /usr/share/mc/bin/mc-wrapper.sh"
-alias c='. synve-c'
-alias t='. synve-t'
 export PATH="~/bin:/opt/bin:$PATH"
