@@ -103,7 +103,6 @@ unison
 unison-gtk
 alacarte
 whois
-neko
 curl
 pidgin
 pidgin-encryption
@@ -113,4 +112,3 @@ pidgin-otr
 pidgin-privacy-please
 pidgin-plugin-pack
 sysv-rc-conf
-
