@@ -68,4 +68,4 @@ if [ -x /usr/lib/command-not-found -o -x /usr/share/command-not-found/command-no
 fi
 
 alias mc=". /usr/share/mc/bin/mc-wrapper.sh"
-export PATH="~/bin:/opt/bin:$PATH"
+export PATH="/opt/bin:$PATH"
