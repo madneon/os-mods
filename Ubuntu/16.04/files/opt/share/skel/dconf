@@ -214,20 +214,38 @@ document-type="photo"
 default-show-menubar=false
 
 [org/gnome/settings-daemon/plugins/media-keys]
-help=""
-home=""
+screenreader=''
+magnifier-zoom-out=''
+terminal='<Super>t'
+email='<Super>e'
+www='<Super>q'
+magnifier-zoom-in=''
+home=''
+help=''
+magnifier=''
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
-name="Browse Home"
-command="nautilus"
-binding='<Super>W'
+binding='<Super>w'
+command='nautilus'
+name='Browse Home'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
-name="Sublime Text 3"
-command="subl"
-binding='<Super>A'
+binding='<Super>a'
+command='subl'
+name='Sublime Text'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
-name="Calculator"
-command="gnome-calculator"
-binding='<Super>N'
+binding='<Super>c'
+command='gnome-calculator'
+name='Calculator'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+binding='<Super>z'
+command='gnome-system-monitor'
+name='System Monitor'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
+binding='<Super>x'
+command='keepassx'
+name='KeePassX'
