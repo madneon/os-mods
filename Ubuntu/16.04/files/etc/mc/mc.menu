@@ -1,8 +1,8 @@
 shell_patterns=0
-u       Backup original as "*.ubuntu"
-	if [ ! -e "%f"".ubuntu" ]; then
-		mv -f "%f" "%f"".ubuntu"
-		cp -a "%f"".ubuntu" "%f"
+o       Backup original as "*.original"
+	if [ ! -e "%f"".original" ]; then
+		mv -f "%f" "%f"".original"
+		cp -a "%f"".original" "%f"
 	fi
 
 + ! t t
@@ -17,7 +17,6 @@ u       Backup original as "*.ubuntu"
 	  $CMD "$1"
 	  shift
 	done
-	
 
 0       Edit a bug report and send it to root
 	I=`mktemp "${MC_TMPDIR:-/tmp}/mail.XXXXXX"` || exit 1
