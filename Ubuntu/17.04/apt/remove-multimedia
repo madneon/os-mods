@@ -4,3 +4,10 @@ rhythmbox-data
 rhythmbox-plugin-zeitgeist
 librhythmbox-core10
 rhythmbox
+gir1.2-totem-plparser-1.0
+gnome-music
+totem-plugins
+libtotem0
+gir1.2-totem-1.0
+totem-common
+totem
