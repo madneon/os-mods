@@ -162,6 +162,7 @@ default-folder-viewer="list-view"
 enable-delete=true
 executable-text-activation="ask"
 sort-directories-first=true
+enable-interactive-search=true
 
 [org/gnome/settings-daemon/peripherals/mouse]
 double-click=200
