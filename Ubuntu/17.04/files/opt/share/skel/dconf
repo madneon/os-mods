@@ -140,8 +140,8 @@ display-line-numbers=true
 display-overview-map=true
 display-right-margin=true
 highlight-current-line=true
-right-margin-position=120
-tabs-size=4
+right-margin-position=uint32 120
+tabs-size=uint32 4
 wrap-last-split-mode="word"
 
 [org/gnome/meld]
