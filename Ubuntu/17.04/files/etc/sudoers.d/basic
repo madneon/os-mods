@@ -1,0 +1,1 @@
+%sudo   ALL = NOPASSWD: /usr/sbin/service, /sbin/shutdown, /sbin/reboot, /usr/bin/apt
