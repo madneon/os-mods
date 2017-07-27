@@ -1,1 +1,1 @@
-%sudo   ALL = NOPASSWD: /usr/sbin/service, /sbin/shutdown, /sbin/reboot, /usr/bin/apt
+%sudo   ALL = NOPASSWD: /usr/sbin/service, /sbin/shutdown, /sbin/reboot, /usr/sbin/pm-suspend, /usr/bin/apt
