@@ -134,7 +134,7 @@ num-workspaces=4
 xkb-options=['kpdl:dot']
 
 [org/gnome/gedit/plugins]
-active-plugins="['spell', 'sort', 'modelines', 'docinfo', 'multiedit', 'codecomment', 'git', 'filebrowser', 'joinlines', 'time', 'drawspaces', 'textsize']"
+active-plugins="['spell', 'charmap', 'joinlines', 'filebrowser', 'time', 'textsize', 'sort', 'multiedit', 'codecomment', 'docinfo', 'colorschemer']"
 
 [org/gnome/gedit/preferences/editor]
 auto-indent=true
