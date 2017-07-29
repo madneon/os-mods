@@ -130,6 +130,9 @@ button-layout="appmenu:minimize,close"
 resize-with-right-button=true
 num-workspaces=4
 
+[org/gnome/desktop/input-sources]
+xkb-options=['kpdl:dot']
+
 [org/gnome/gedit/plugins]
 active-plugins="['spell', 'sort', 'modelines', 'docinfo', 'multiedit', 'codecomment', 'git', 'filebrowser', 'joinlines', 'time', 'drawspaces', 'textsize']"
 
