@@ -1,7 +1,8 @@
 etc  	/etc
+files:*.txt
+boot	/boot
+files:*
 root 	/root
 log  	/var/log
-files:*.txt
-boot 	/boot
 local	/usr/local
 srv  	/srv
