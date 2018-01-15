@@ -1,8 +1,13 @@
-etc  	/etc
+etc	/etc
+
 files:*.txt
 boot	/boot
 files:*
+
 root 	/root
 log  	/var/log
 local	/usr/local
 srv  	/srv
+
+exec:dpkg --get-selections|grep -v deinstall|cut -f1>/opt/var/log/dpkg.log
+opt-log	/opt/var/log
