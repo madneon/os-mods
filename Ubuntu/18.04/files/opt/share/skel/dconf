@@ -18,10 +18,11 @@ autorun-never=true
 dock-fixed=false
 
 [org/gnome/desktop/interface]
-clock-show-datd=true
+clock-show-date=true
 menubar-accel=""
 menus-have-icons=true
 cursor-blink-time=400
+gtk-theme="Adwaita"
 
 [org/gnome/desktop/peripherals/keyboard]
 delay=uint32 200
@@ -171,7 +172,8 @@ toggle-tiled-left=@as []
 toggle-tiled-right=@as []
 
 [org/gnome/nautilus/list-view]
-default-visible-columns=['name', 'size', 'date_modified', 'owner', 'group', 'permissions']
+default-visible-columns=['name', 'size', 'owner', 'group', 'permissions', 'date_modified']
+default-column-order=['name', 'size', 'type', 'date_modified', 'permissions', 'owner', 'group', 'mime_type', 'where', 'date_modified_with_time', 'date_accessed', 'recency']
 default-zoom-level='small'
 use-tree-view=true
 
