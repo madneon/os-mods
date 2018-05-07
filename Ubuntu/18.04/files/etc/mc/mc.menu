@@ -1,12 +1,5 @@
 shell_patterns=0
 
-shell_patterns=0
-u       Backup original as "*.original"
-        if [ ! -e "%f"".original" ]; then
-                mv -f "%f" "%f"".original"
-                cp -a "%f"".original" "%f"
-        fi
-
 ##############################################################################
 #   %%  The % character
 #   %f  The current file (if non-local vfs, file will be copied locally and
@@ -28,6 +21,13 @@ u       Backup original as "*.original"
 #   %1f   ditto
 #   %0f   don't quote expanded macro
 ##############################################################################
+
+shell_patterns=0
+u       Backup original as "*.original"
+        if [ ! -e "%f"".original" ]; then
+                mv -f "%f" "%f"".original"
+                cp -a "%f"".original" "%f"
+        fi
 
 + ! t t
 @       Do something on the current file

@@ -1,163 +1,130 @@
-[org/gnome/deja-dup]
-backend="local"
-[org/gnome/deja-dup/local]
-folder=".backups/deja-dup"
-
 [org/gnome/desktop/background]
-color-shading-type="solid"
-picture-options="wallpaper"
-picture-uri="file:////usr/share/gnome-control-center/pixmaps/noise-texture-light.png"
-primary-color="#425265"
-secondary-color="#425265"
+color-shading-type='solid'
+picture-options='wallpaper'
+picture-uri='file:////usr/share/gnome-control-center/pixmaps/noise-texture-light.png'
+primary-color='#425265'
+secondary-color='#425265'
 show-desktop-icons=true
 
-[org/gnome/desktop/media-handling]
-autorun-never=true
-
 [org/gnome/shell/extensions/dash-to-dock]
+multi-monitor=true
 dock-fixed=false
-
-[org/gnome/desktop/interface]
-clock-show-date=true
-menubar-accel=""
-menus-have-icons=true
-cursor-blink-time=400
-gtk-theme="Adwaita"
 
 [org/gnome/desktop/peripherals/keyboard]
 delay=uint32 200
 repeat-interval=20
 speed=1
 
-[org/gnome/desktop/peripherals/mouse]
+[org/gnome/settings-daemon/peripherals/mouse]
 accel-profile='flat'
 speed=1
+double-click=200
 
 [org/gnome/desktop/peripherals/touchpad]
 natural-scroll=false
 
 [org/gnome/desktop/privacy]
-old-files-age=3
-recent-files-max-age=7
 remove-old-temp-files=true
+old-files-age=uint32 3
+recent-files-max-age=7
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-battery-timeout=900
+sleep-inactive-ac-type='suspend'
+sleep-inactive-ac-timeout=3600
+
+[org/gnome/settings-daemon/plugins/media-keys]
+home='<Super>q'
+email='<Super>e'
+calculator='<Super>c'
+terminal='<Super>t'
+www='<Super>w'
+control-center='<Super>o'
+search='<Super>f'
 
 [org/gnome/desktop/wm/keybindings]
-cycle-windows-backward=@as []
-minimize=['<Alt>F1']
-move-to-workspace-7=['<Alt><Super>F7']
-move-to-workspace-8=['<Alt><Super>F8']
-move-to-workspace-9=@as []
-move-to-monitor-left=['<Primary><Alt><Super>Left']
-move-to-workspace-5=['<Alt><Super>F5']
-move-to-workspace-6=['<Alt><Super>F6']
-move-to-workspace-10=@as []
-move-to-workspace-11=@as []
-move-to-workspace-12=@as []
-move-to-center=['<Shift><Alt>s']
-unmaximize=@as []
-panel-main-menu=@as []
-cycle-windows=@as []
-cycle-panels-backward=@as []
-panel-run-dialog=['<Super>Return']
-switch-to-workspace-down=['<Super>Down']
-move-to-corner-ne=['<Shift><Alt>e']
-move-to-side-e=['<Shift><Alt>d']
-move-to-workspace-right=@as []
-always-on-top=@as []
-move-to-workspace-up=['<Super><Alt>Up']
-raise=@as []
-maximize=@as []
-cycle-group-backward=@as []
-move-to-side-n=['<Shift><Alt>w']
-move-to-side-s=['<Shift><Alt>x']
-maximize-horizontally=['<Alt>F4']
-move-to-side-w=['<Shift><Alt>a']
-move-to-corner-nw=['<Shift><Alt>q']
-switch-windows=['<Alt>Tab']
-begin-move=['<Alt>F7']
-move-to-monitor-down=['<Primary><Alt><Super>Down']
-switch-windows-backward=['<Shift><Alt>Tab']
-move-to-workspace-left=@as []
-move-to-corner-se=['<Shift><Alt>c']
-activate-window-menu=['<Alt>space']
-switch-input-source=@as []
-toggle-above=@as []
-move-to-monitor-right=['<Primary><Alt><Super>Right']
-switch-input-source-backward=@as []
-move-to-workspace-last=@as []
-lower=@as []
-cycle-panels=@as []
-toggle-fullscreen=['<Alt>F11']
-toggle-on-all-workspaces=@as []
-move-to-monitor-up=['<Primary><Alt><Super>Up']
-move-to-corner-sw=['<Shift><Alt>z']
-toggle-shaded=@as []
-switch-to-workspace-1=['<Super>F1']
-switch-to-workspace-2=['<Super>F2']
-switch-to-workspace-3=['<Super>F3']
-switch-to-workspace-4=['<Super>F4']
-raise-or-lower=@as []
-switch-panels=['<Super>Tab']
-switch-panels-backward=['<Shift><Super>Tab']
-switch-applications-backward=@as []
-maximize-vertically=['<Alt>F3']
-switch-to-workspace-7=['<Super>F7']
-switch-to-workspace-5=['<Super>F5']
 show-desktop=['<Super>d']
-switch-to-workspace-8=['<Super>F8']
-switch-to-workspace-9=@as []
-switch-to-workspace-6=['<Super>F6']
-switch-applications=@as []
-switch-to-workspace-10=@as []
-switch-to-workspace-11=@as []
-switch-to-workspace-12=@as []
-switch-to-workspace-left=@as []
-toggle-maximized=['<Alt>F2']
-set-spew-mark=@as []
-begin-resize=['<Alt>F8']
-move-to-workspace-down=['<Super><Alt>Down']
-switch-to-workspace-last=@as []
-switch-group-backward=['<Shift><Super>Above_Tab', '<Shift><Alt>Above_Tab']
-switch-group=['<Super>Above_Tab', '<Alt>Above_Tab']
-cycle-group=@as []
-close=['<Alt>Escape']
-switch-to-workspace-up=['<Super>Up']
+switch-to-workspace-up=['<Alt><Super>Up']
+switch-to-workspace-down=['<Alt><Super>Down']
+move-to-monitor-up=['<Primary><Alt><Super>Up']
+move-to-monitor-down=['<Primary><Alt><Super>Down']
+move-to-monitor-right=['<Primary><Alt><Super>Right']
+move-to-monitor-left=['<Primary><Alt><Super>Left']
+move-to-workspace-down=['<Shift><Alt><Super>Down']
+move-to-workspace-up=['<Shift><Alt><Super>Up']
+move-to-workspace-last=['<Alt><Super>BackSpace']
 move-to-workspace-1=['<Alt><Super>F1']
 move-to-workspace-2=['<Alt><Super>F2']
 move-to-workspace-3=['<Alt><Super>F3']
 move-to-workspace-4=['<Alt><Super>F4']
-switch-to-workspace-right=@as []
+switch-panels=['<Super>Tab']
+switch-panels-backward=['<Shift><Super>Tab']
+switch-to-workspace-last=['<Super>BackSpace']
+cycle-panels=['<Shift><Super>Tab']
+cycle-panels-backward=['<Super>Tab']
+switch-to-workspace-1=['<Super>F1']
+switch-to-workspace-2=['<Super>F2']
+switch-to-workspace-3=['<Super>F3']
+switch-to-workspace-4=['<Super>F4']
+switch-windows=['<Alt>Tab']
+switch-windows-backward=['<Shift><Alt>Tab']
+cycle-windows=['<Primary><Alt>Tab']
+cycle-windows-backward=['<Primary><Shift><Alt>Tab']
+cycle-windows=['<Primary>Tab']
+cycle-windows-backward=['<Primary><Shift>Tab']
+cycle-windows=['<Primary><Alt>Tab']
+cycle-windows-backward=['<Primary><Shift><Alt>Tab']
+cycle-group=['<Primary>Tab']
+cycle-group-backward=['<Primary><Shift>Tab']
+panel-run-dialog=['<Super>Return']
 
-[org/gnome/shell/keybindings]
-toggle-message-tray=['<Super>m']
-open-application-menu=['<Super>space']
-pause-resume-tweens=@as []
-toggle-application-view=@as []
-focus-active-notification=['<Super>n']
-toggle-overview=@as []
+[org/gnome/desktop/media-handling]
+autorun-never=true
+
+[org/gnome/desktop/interface]
+gtk-theme='Adwaita-dark'
+icon-theme='ubuntu-mono-dark'
+menubar-accel=""
+menus-have-icons=true
+cursor-blink-time=400
+
+[org/gnome/nautilus/desktop]
+trash-icon-visible=false
+volumes-visible=false
+
+[org/gnome/shell]
+enabled-extensions=['ubuntu-appindicators@ubuntu.com']
+
+[org/gnome/settings-daemon/plugins/xsettings]
+hinting='slight'
+antialiasing='grayscale'
 
 [org/gnome/desktop/wm/preferences]
-action-middle-click-titlebar="minimize"
-button-layout="appmenu:minimize,close"
 resize-with-right-button=true
-num-workspaces=4
+mouse-button-modifier='<Alt>'
+button-layout=':close'
+action-middle-click-titlebar='minimize'
 
-[org/gnome/desktop/input-sources]
-xkb-options=['kpdl:dot']
+[org/gnome/mutter]
+dynamic-workspaces=false
 
-[org/gnome/gedit/plugins]
-active-plugins="['spell', 'charmap', 'joinlines', 'filebrowser', 'time', 'textsize', 'sort', 'multiedit', 'codecomment', 'docinfo', 'colorschemer']"
+
+
+[org/gnome/deja-dup]
+backend='local'
+[org/gnome/deja-dup/local]
+folder='.backups/deja-dup'
 
 [org/gnome/gedit/preferences/editor]
-auto-indent=true
-bracket-matching=true
 display-line-numbers=true
 display-overview-map=true
-display-right-margin=true
-highlight-current-line=true
-right-margin-position=uint32 120
 tabs-size=uint32 4
-wrap-last-split-mode="word"
+use-default-font=true
+scheme='oblivion'
+editor-font='Monospace 11'
+
+[org/gnome/gedit/plugins]
+active-plugins=['sort', 'time', 'filebrowser', 'git', 'drawspaces', 'docinfo', 'wordcompletion', 'joinlines', 'dashboard', 'codecomment', 'spell', 'modelines', 'multiedit']
 
 [org/gnome/meld]
 draw-spaces=['space', 'tab', 'newline', 'nbsp', 'leading', 'text', 'trailing']
@@ -165,11 +132,6 @@ highlight-current-line=true
 highlight-syntax=true
 indent-width=4
 show-line-numbers=true
-
-[org/gnome/mutter]
-dynamic-workspaces=false
-toggle-tiled-left=@as []
-toggle-tiled-right=@as []
 
 [org/gnome/nautilus/list-view]
 default-visible-columns=['name', 'size', 'owner', 'group', 'permissions', 'date_modified']
@@ -184,41 +146,6 @@ sort-directories-first=true
 show-create-link=true
 enable-interactive-search=true
 
-[org/gnome/settings-daemon/peripherals/mouse]
-double-click=200
-
-[org/gnome/settings-daemon/plugins/power]
-ambient-enabled=false
-button-power="shutdown"
-critical-battery-action="shutdown"
-idle-dim=false
-lid-close-suspend-with-external-monitor=true
-power-button-action="nothing"
-sleep-inactive-ac-timeout=1800
-sleep-inactive-ac-type="suspend"
-sleep-inactive-battery-timeout=1800
-sleep-inactive-battery-type="suspend"
-
-[org/gnome/shell]
-favorite-apps=['firefox.desktop', 'evolution.desktop', 'libreoffice-writer.desktop', 'org.gnome.Nautilus.desktop']
-enabled-extensions=['alternate-tab@gnome-shell-extensions.gcampax.github.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'TaskBar@zpydr', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'TopIcons@phocean.net']
-
-
-[org/gnome/shell/extensions/TaskBar]
-top-panel-background-alpha=true
-
-[org/gnome/shell/extensions/TaskBar]
-activities-button=false
-top-panel-background-color='rgba(0,0,0,0.33)'
-top-panel-original-background-color='rgba(0, 0, 0, 255)'
-bottom-panel-original-background-color='rgba(0, 0, 0, 255)'
-
-[org/gnome/shell/app-switcher]
-current-workspace-only=true
-
-[org/gnome/shell/overrides]
-dynamic-workspaces=false
-
 [org/gnome/SimpleScan]
 jpeg-quality=85
 text-dp=300
@@ -228,75 +155,7 @@ photo-dp=400
 page-side="both"
 document-type="photo"
 
-[org/gnome/Terminal/Legacy/Settings]
+[org/gnome/terminal/legacy]
 default-show-menubar=false
-
-[org/gnome/terminal/legacy/keybindings]
-help='disabled'
-
-[org/gnome/system/location]
-enabled=false
-
-[org/gnome/desktop/privacy]
-remember-recent-files=false
-remove-old-trash-files=true
-remove-old-temp-files=true
-old-files-age=uint32 30
-
-[org/gnome/settings-daemon/plugins/media-keys]
-screenreader=''
-magnifier-zoom-out=''
-terminal='<Super>t'
-email='<Super>e'
-www='<Super>w'
-calculator='<Super>c'
-control-center='<Super>o'
-magnifier-zoom-in=''
-home=''
-help=''
-magnifier=''
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/']
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
-binding='<Super>q'
-command='nautilus'
-name='Browse Home'
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
-binding='<Super>a'
-command='subl'
-name='Sublime Text'
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
-binding='<Super>z'
-command='gnome-system-monitor'
-name='System Monitor'
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
-binding='<Super>x'
-command='keepassx'
-name='KeePassX'
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
-binding='<Super>r'
-command='pkexec "gnome-terminal"'
-name='Root Terminal'
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5]
-binding='<Super>u'
-command='unison-gtk'
-name='Unison'
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6]
-binding='<Super>i'
-command='pidgin'
-name='Pidgin'
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7]
-binding='<Super><Shift>w'
-command='firefox --private-window https://duckduckgo.com'
-name='Firefox (private)'
-
-[org/gnome/settings-daemon/plugins/xsettings]
-hinting="slight"
-antialiasing="grayscale"
+menu-accelerator-enabled=false
+theme-variant='dark'
