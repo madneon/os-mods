@@ -162,6 +162,25 @@ page-side="both"
 document-type="photo"
 
 [org/gnome/terminal/legacy]
-default-show-menubar=false
 menu-accelerator-enabled=false
+schema-version=uint32 3
+default-show-menubar=false
 theme-variant='dark'
+
+[org/gnome/terminal/legacy/keybindings]
+reset='<Primary><Shift>r'
+toggle-menubar='F12'
+
+[org/gnome/terminal/legacy/profiles:]
+list=['6dea6c13-ceaa-47b8-8607-fb3520d64662']
+default='6dea6c13-ceaa-47b8-8607-fb3520d64662'
+
+[org/gnome/terminal/legacy/profiles:/:6dea6c13-ceaa-47b8-8607-fb3520d64662]
+foreground-color='rgb(170,170,170)'
+visible-name='default'
+default-size-columns=120
+default-size-rows=30
+scroll-on-output=true
+use-theme-colors=false
+background-color='rgb(0,0,0)'
+scrollbar-policy='never'
