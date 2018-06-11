@@ -12,6 +12,7 @@ dialog
 ecryptfs-utils
 eiciel
 etherwake
+exfat-fuse
 extundelete
 fatresize
 firefox-locale-pl
@@ -19,8 +20,10 @@ gedit-developer-plugins
 gedit-plugins
 gimp
 git
+gnome-calculator
 gnome-shell-extension-impatience
 gnome-shell-extension-top-icons-plus
+gnome-system-monitor
 gnome-tweak-tool
 gparted
 gprename

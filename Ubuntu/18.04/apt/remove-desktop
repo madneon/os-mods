@@ -17,3 +17,5 @@ kerneloops
 apport
 apport-gtk
 apport-symptoms
+gnome-software-plugin-snap
+snapd
