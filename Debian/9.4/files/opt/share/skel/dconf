@@ -111,7 +111,7 @@ trash-icon-visible=false
 volumes-visible=false
 
 [org/gnome/shell]
-enabled-extensions=['ubuntu-appindicators@ubuntu.com', 'alternate-tab@gnome-shell-extensions.gcampax.github.com', 'impatience@gfxmonk.net', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'pixel-saver@deadalnix.me', 'TopIcons@phocean.net', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'hidetopbar@mathieu.bidon.ca']
+enabled-extensions=['ubuntu-appindicators@ubuntu.com', 'alternate-tab@gnome-shell-extensions.gcampax.github.com', 'impatience@gfxmonk.net', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'pixel-saver@deadalnix.me', 'TopIcons@phocean.net', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'hidetopbar@mathieu.bidon.ca', 'GPaste@gnome-shell-extensions.gnome.org']
 favorite-apps=['org.gnome.Nautilus.desktop', 'firefox-esr.desktop', 'thunderbird.desktop', 'libreoffice-writer.desktop', 'libreoffice-calc.desktop', 'org.gnome.Terminal.desktop']
 
 [org/gnome/settings-daemon/plugins/xsettings]
