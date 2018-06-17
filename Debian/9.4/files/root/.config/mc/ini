@@ -75,7 +75,11 @@ ftpfs_directory_timeout=900
 ftpfs_retry_seconds=30
 fish_directory_timeout=900
 editor_tab_spacing=4
+<<<<<<< HEAD
 editor_word_wrap_line_length=80
+=======
+editor_word_wrap_line_length=72
+>>>>>>> bcc7e885a7d67fcc0c190c4fa8a39bc2ae200011
 editor_option_save_mode=0
 editor_backup_extension=~
 editor_filesize_threshold=64M
@@ -95,7 +99,7 @@ menubar_visible=0
 free_space=1
 horizontal_split=0
 vertical_equal=1
-left_panel_size=60
+left_panel_size=120
 horizontal_equal=1
 top_panel_size=1
 
@@ -115,6 +119,8 @@ clipboard_paste=
 base_color=
 xterm-256color=
 color_terminals=
+
+linux=
 
 [Panels]
 show_mini_info=true
