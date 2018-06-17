@@ -1,0 +1,202 @@
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='wallpaper'
+picture-uri='file:////usr/share/gnome-control-center/pixmaps/noise-texture-light.png'
+primary-color='#425265'
+secondary-color='#425265'
+show-desktop-icons=true
+
+[org/gnome/desktop/peripherals/keyboard]
+delay=uint32 200
+repeat-interval=uint32 20
+
+[org/gnome/settings-daemon/peripherals/mouse]
+accel-profile='flat'
+speed=1.0
+
+[org/gnome/desktop/peripherals/touchpad]
+natural-scroll=false
+speed=1.0
+tap-to-click=true
+
+[org/gnome/desktop/privacy]
+remove-old-temp-files=true
+old-files-age=uint32 3
+recent-files-max-age=7
+
+[org/gnome/settings-daemon/plugins/power]
+ambient-enabled=false
+sleep-inactive-battery-timeout=900
+sleep-inactive-ac-type='suspend'
+sleep-inactive-ac-timeout=3600
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>t'
+name='Terminal'
+command='gnome-terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Super>z'
+name='System Monitor'
+command='gnome-system-monitor'
+
+[org/gnome/settings-daemon/plugins/media-keys]
+home='<Super>q'
+email='<Super>e'
+calculator='<Super>c'
+www='<Super>w'
+control-center='<Super>o'
+search='<Super>f'
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
+
+[org/gnome/desktop/wm/keybindings]
+move-to-monitor-right=['<Primary><Alt><Super>Right']
+unmaximize=@as []
+maximize-horizontally=['<Alt>F4']
+switch-to-workspace-1=['<Super>F1']
+switch-to-workspace-2=['<Super>F2']
+panel-run-dialog=['<Super>Return']
+move-to-monitor-left=['<Primary><Alt><Super>Left']
+cycle-windows=@as []
+show-desktop=['<Super>d']
+switch-to-workspace-4=['<Super>F4']
+switch-to-workspace-3=['<Super>F3']
+maximize=@as []
+toggle-fullscreen=['<Alt>F11']
+panel-main-menu=@as []
+cycle-windows-backward=@as []
+cycle-group-backward=['<Primary><Shift><Alt>Tab']
+cycle-panels-backward=['<Primary><Shift><Super>Tab']
+toggle-maximized=['<Alt>F2']
+move-to-workspace-down=['<Alt><Super>Down']
+move-to-workspace-1=['<Alt><Super>F1']
+move-to-workspace-2=['<Alt><Super>F2']
+move-to-workspace-last=['<Alt><Super>BackSpace']
+switch-applications=@as []
+move-to-workspace-4=['<Alt><Super>F4']
+move-to-workspace-3=['<Alt><Super>F3']
+switch-applications-backward=@as []
+switch-panels-backward=['<Shift><Super>Tab']
+move-to-monitor-down=['<Primary><Alt><Super>Down']
+minimize=['<Alt>F1']
+cycle-group=['<Primary><Alt>Tab']
+maximize-vertically=['<Alt>F3']
+cycle-panels=['<Primary><Super>Tab']
+switch-to-workspace-down=['<Super>Down']
+move-to-workspace-up=['<Alt><Super>Up']
+switch-windows-backward=['<Shift><Alt>Tab']
+switch-panels=['<Super>Tab']
+move-to-monitor-up=['<Primary><Alt><Super>Up']
+close=['<Alt>Escape']
+switch-windows=['<Alt>Tab']
+switch-to-workspace-up=['<Super>Up']
+move-to-side-e=['<Alt><Shift>d']
+move-to-side-n=['<Alt><Shift>w']
+move-to-side-s=['<Alt><Shift>x']
+move-to-side-w=['<Alt><Shift>a']
+
+[org/gnome/desktop/media-handling]
+autorun-never=true
+
+[org/gnome/desktop/interface]
+gtk-theme='Adwaita-dark'
+icon-theme='Adwaita'
+menubar-accel=""
+menus-have-icons=true
+cursor-blink-time=400
+clock-format='24h'
+
+[org/gnome/nautilus/desktop]
+trash-icon-visible=false
+volumes-visible=false
+
+[org/gnome/shell]
+enabled-extensions=['ubuntu-appindicators@ubuntu.com', 'alternate-tab@gnome-shell-extensions.gcampax.github.com', 'impatience@gfxmonk.net', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'pixel-saver@deadalnix.me', 'TopIcons@phocean.net', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'hidetopbar@mathieu.bidon.ca']
+favorite-apps=['org.gnome.Nautilus.desktop', 'firefox-esr.desktop', 'thunderbird.desktop', 'libreoffice-writer.desktop', 'libreoffice-calc.desktop', 'org.gnome.Terminal.desktop']
+
+[org/gnome/settings-daemon/plugins/xsettings]
+hinting='slight'
+antialiasing='grayscale'
+
+[org/gnome/desktop/wm/preferences]
+resize-with-right-button=true
+mouse-button-modifier='<Alt>'
+button-layout=':close'
+action-middle-click-titlebar='minimize'
+num-workspaces=4
+
+[org/gnome/shell/overrides]
+dynamic-workspaces=false
+
+[org/gnome/deja-dup]
+backend='local'
+[org/gnome/deja-dup/local]
+folder='.backups/deja-dup'
+
+[org/gnome/gedit/preferences/editor]
+display-line-numbers=true
+display-right-margin=true
+display-overview-map=true
+tabs-size=uint32 4
+use-default-font=true
+scheme='oblivion'
+editor-font='Monospace 11'
+highlight-current-line=true
+bracket-matching=true
+auto-indent=true
+
+[org/gnome/gedit/plugins]
+active-plugins=['time', 'multiedit', 'joinlines', 'spell', 'docinfo', 'textsize', 'codecomment', 'dashboard', 'drawspaces', 'git', 'colorschemer', 'sort', 'filebrowser', 'modelines', 'wordcompletion']
+
+[org/gnome/meld]
+draw-spaces=['space', 'tab', 'newline', 'nbsp', 'leading', 'text', 'trailing']
+highlight-current-line=true
+highlight-syntax=true
+indent-width=4
+show-line-numbers=true
+
+[org/gnome/nautilus/list-view]
+default-visible-columns=['name', 'size', 'owner', 'group', 'permissions', 'date_modified']
+default-column-order=['name', 'size', 'type', 'date_modified', 'permissions', 'owner', 'group', 'mime_type', 'where', 'date_modified_with_time', 'date_accessed', 'recency']
+default-zoom-level='small'
+use-tree-view=true
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='list-view'
+enable-delete=true
+sort-directories-first=true
+show-create-link=true
+enable-interactive-search=true
+
+[org/gnome/SimpleScan]
+jpeg-quality=85
+text-dp=300
+paper-widt=210
+paper-heigh=297
+photo-dp=400
+page-side="both"
+document-type="photo"
+
+[org/gnome/terminal/legacy]
+menu-accelerator-enabled=false
+schema-version=uint32 3
+default-show-menubar=false
+theme-variant='dark'
+
+[org/gnome/terminal/legacy/keybindings]
+reset='<Primary><Shift>r'
+toggle-menubar='F12'
+
+[org/gnome/terminal/legacy/profiles:]
+list=['6dea6c13-ceaa-47b8-8607-fb3520d64662']
+default='6dea6c13-ceaa-47b8-8607-fb3520d64662'
+
+[org/gnome/terminal/legacy/profiles:/:6dea6c13-ceaa-47b8-8607-fb3520d64662]
+foreground-color='rgb(170,170,170)'
+visible-name='default'
+default-size-columns=120
+default-size-rows=30
+scroll-on-output=true
+use-theme-colors=false
+background-color='rgb(0,0,0)'
+scrollbar-policy='never'
