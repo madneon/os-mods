@@ -1,0 +1,7 @@
+#!/bin/sh
+
+FIREFOX="$(which firefox)"
+[ -x "$FIREFOX.real" ] && exec "$FIREFOX.real" "$@"
+
+export GTK_THEME=Adwaita:light
+exec firefox-esr "$@"

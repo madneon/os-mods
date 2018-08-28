@@ -40,6 +40,26 @@ binding='<Super>z'
 name='System Monitor'
 command='gnome-system-monitor'
 
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Super>w'
+command='/usr/bin/firefox --new-instance'
+name='Firefox (fix dark theme)'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+binding='<Shift><Super>w'
+command='/usr/bin/firefox --new-instance --private-window'
+name='Firefox private'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
+binding='<Super>u'
+command='unison-gtk'
+name='Unison'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5]
+binding='<Super>a'
+command='/usr/bin/subl'
+name='Sublime Text'
+
 [org/gnome/settings-daemon/plugins/media-keys]
 home='<Super>q'
 email='<Super>e'
@@ -47,7 +67,7 @@ calculator='<Super>c'
 www='<Super>w'
 control-center='<Super>o'
 search='<Super>f'
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/']
 
 [org/gnome/desktop/wm/keybindings]
 move-to-monitor-right=['<Primary><Alt><Super>Right']
@@ -111,7 +131,7 @@ trash-icon-visible=false
 volumes-visible=false
 
 [org/gnome/shell]
-enabled-extensions=['ubuntu-appindicators@ubuntu.com', 'alternate-tab@gnome-shell-extensions.gcampax.github.com', 'impatience@gfxmonk.net', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'pixel-saver@deadalnix.me', 'TopIcons@phocean.net', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'hidetopbar@mathieu.bidon.ca']
+enabled-extensions=['ubuntu-appindicators@ubuntu.com', 'alternate-tab@gnome-shell-extensions.gcampax.github.com', 'impatience@gfxmonk.net', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'pixel-saver@deadalnix.me', 'TopIcons@phocean.net', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'hidetopbar@mathieu.bidon.ca', 'GPaste@gnome-shell-extensions.gnome.org']
 favorite-apps=['org.gnome.Nautilus.desktop', 'firefox-esr.desktop', 'thunderbird.desktop', 'libreoffice-writer.desktop', 'libreoffice-calc.desktop', 'org.gnome.Terminal.desktop']
 
 [org/gnome/settings-daemon/plugins/xsettings]
