@@ -84,6 +84,9 @@ close=['<Alt>Escape']
 switch-windows=['<Alt>Tab']
 switch-to-workspace-up=['<Super>Up']
 
+[org/gnome/desktop/input-sources]
+xkb-options=['kpdl:dot']
+
 [org/gnome/desktop/media-handling]
 autorun-never=true
 

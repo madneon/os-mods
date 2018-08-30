@@ -115,6 +115,9 @@ move-to-side-n=['<Alt><Shift>w']
 move-to-side-s=['<Alt><Shift>x']
 move-to-side-w=['<Alt><Shift>a']
 
+[org/gnome/desktop/input-sources]
+xkb-options=['kpdl:dot']
+
 [org/gnome/desktop/media-handling]
 autorun-never=true
 
