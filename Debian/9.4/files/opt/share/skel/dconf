@@ -209,6 +209,7 @@ theme-variant='dark'
 [org/gnome/terminal/legacy/keybindings]
 reset='<Primary><Shift>r'
 toggle-menubar='F12'
+help='disabled'
 
 [org/gnome/terminal/legacy/profiles:]
 list=['6dea6c13-ceaa-47b8-8607-fb3520d64662']
