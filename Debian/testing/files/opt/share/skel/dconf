@@ -13,13 +13,13 @@ repeat-interval=uint32 20
 [org/gnome/settings-daemon/peripherals/mouse]
 accel-profile='flat'
 natural-scroll=false
-speed=1.0
+speed=0.25
 
 [org/gnome/desktop/peripherals/touchpad]
 natural-scroll=false
-speed=1.0
+speed=0.25
 tap-to-click=true
-two-finger-scrolling-enabled=false
+two-finger-scrolling-enabled=true
 
 [org/gnome/desktop/privacy]
 remove-old-temp-files=true
