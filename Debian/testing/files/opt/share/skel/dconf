@@ -156,6 +156,9 @@ scroll-on-output=false
 use-theme-colors=true
 scrollbar-policy='never'
 
+[com/vinszent/GnomeTwitch]
+player-backend=['player-backend-mpv-opengl']
+
 [org/gnome/GPaste]
 pop=''
 make-password=''
