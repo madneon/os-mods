@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Copyright © 2014-2015 by madneon
+# http://madneon.com
+
+for f in /etc/rc.local.d/*; do
+	if [ -x "$f" ]; then
+		. "$f"
+	fi
+done
+
+exit 0
+
+# madneon 2014-12-16
