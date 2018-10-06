@@ -1,0 +1,89 @@
+[org/gnome/gnome-system-monitor]
+#http://paletton.com/#uid=70I1q0kllll7TAzeBrAs4f5D48I
+cpu-colors=[(uint32 0, '#AA3939'), (1, '#AA9739'), (2, '#403075'), (3, '#2D882D'), (4, '#780F0F'), (5, '#78660F'), (6, '#221253'), (7, '#0C600C'), (8, '#DC7878'), (9, '#DCCB78'), (10, '#695A97'), (11, '#60B060'), (12, '#450000'), (13, '#453A00'), (14, '#0E0430'), (15, '#003800')]
+
+[org/gnome/gnome-system-monitor/proctree]
+sort-col=8
+sort-order=0
+
+[org/gnome/GPaste]
+growing-lines=true
+
+[org/gnome/deja-dup]
+backend='local'
+[org/gnome/deja-dup/local]
+folder='.backups/deja-dup'
+
+[org/gnome/gedit/preferences/editor]
+display-line-numbers=true
+display-right-margin=true
+display-overview-map=true
+tabs-size=uint32 4
+use-default-font=true
+scheme='oblivion'
+editor-font='Monospace 11'
+highlight-current-line=true
+bracket-matching=true
+auto-indent=true
+
+[org/gnome/gedit/plugins]
+active-plugins=['docinfo', 'codecomment', 'quickhighlight', 'time', 'spell', 'drawspaces', 'joinlines']
+
+[org/gnome/meld]
+draw-spaces=['space', 'tab', 'newline', 'nbsp', 'leading', 'text', 'trailing']
+highlight-current-line=true
+highlight-syntax=true
+indent-width=4
+show-line-numbers=true
+style-scheme='oblivion'
+folder-time-resolution=1
+vc-commit-margin=80
+
+[org/gnome/nautilus/icon-view]
+captions=['size', 'none', 'none']
+
+[org/gnome/nautilus/list-view]
+default-visible-columns=['name', 'size', 'owner', 'group', 'permissions', 'date_modified_with_time']
+default-zoom-level='small'
+use-tree-view=true
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='list-view'
+show-create-link=true
+
+[org/gnome/simple-scan]
+jpeg-quality=90
+text-dpi=300
+paper-widt=2100
+paper-heigh=2970
+photo-dpi=600
+page-side="both"
+page-delay=3000
+document-type="photo"
+
+[org/gnome/terminal/legacy]
+menu-accelerator-enabled=false
+schema-version=uint32 3
+default-show-menubar=false
+theme-variant='dark'
+
+[org/gnome/terminal/legacy/profiles:]
+list=['6dea6c13-ceaa-47b8-8607-fb3520d64662']
+default='6dea6c13-ceaa-47b8-8607-fb3520d64662'
+
+[org/gnome/terminal/legacy/profiles:/:6dea6c13-ceaa-47b8-8607-fb3520d64662]
+visible-name='default'
+default-size-columns=120
+default-size-rows=30
+scroll-on-output=false
+use-theme-colors=true
+scrollbar-policy='never'
+
+[com/vinszent/GnomeTwitch]
+player-backend=['player-backend-mpv-opengl']
+
+[org/gnome/eog/view]
+extrapolate=false
+
+[org/gnome/file-roller/general]
+compression-level='maximum'

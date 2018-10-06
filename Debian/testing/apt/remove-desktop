@@ -24,7 +24,9 @@ libreoffice-evolution
 evolution-plugins
 libevolution
 evolution
-gnome-calendar
 tracker
 tracker-gui
 rygel-tracker
+gnome-twitch-player-backend-gstreamer-cairo
+gnome-twitch-player-backend-gstreamer-clutter
+gnome-twitch-player-backend-gstreamer-opengl
