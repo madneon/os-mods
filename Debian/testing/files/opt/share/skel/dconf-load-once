@@ -3,7 +3,9 @@
 MYPATH=`readlink -f "$0"`
 MYPATH=`dirname "$MYPATH"`
 
-dconf load / < "$MYPATH/dconf"
+for f in "$MYPATH"/*.load; do
+	dconf load / < "$f"
+done
 
 if [ -f ~/.config/autostart/dconf-load-once.desktop ]; then
 	rm ~/.config/autostart/dconf-load-once.desktop
