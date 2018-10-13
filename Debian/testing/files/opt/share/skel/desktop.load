@@ -87,3 +87,8 @@ folder='.backups/deja-dup'
 sort-directories-first=true
 expand-folders=true
 startup-mode='cwd'
+
+[org/gnome/shell/extensions/hidetopbar]
+mouse-sensitive=true
+enable-active-window=true
+hot-corner=true
