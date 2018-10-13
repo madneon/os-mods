@@ -49,9 +49,8 @@ mjpegtools
 mkvtoolnix
 most
 mythes-pl
-nautilus-compare
-nautilus-dropbox
-nautilus-share
+nemo
+nemo-fileroller
 net-tools
 network-manager-pptp
 network-manager-ssh-gnome
@@ -75,7 +74,6 @@ pidgin-privacy-please
 pm-utils
 rabbitvcs-core
 rabbitvcs-gedit
-rabbitvcs-nautilus
 rar
 recordmydesktop
 rsync

@@ -39,17 +39,24 @@ style-scheme='oblivion'
 folder-time-resolution=1
 vc-commit-margin=80
 
-[org/gnome/nautilus/icon-view]
+[org/gnome/nemo/icon-view]
 captions=['size', 'none', 'none']
 
-[org/gnome/nautilus/list-view]
+[org/gnome/nemo/list-view]
 default-visible-columns=['name', 'size', 'owner', 'group', 'permissions', 'date_modified_with_time']
 default-zoom-level='small'
 use-tree-view=true
 
-[org/gnome/nautilus/preferences]
+[org/nemo/compact-view]
+default-zoom-level='small'
+
+[org/gnome/nemo/preferences]
 default-folder-viewer='list-view'
-show-create-link=true
+start-with-dual-pane=true
+click-double-parent-folder=true
+close-device-view-on-device-eject=true
+date-format='iso'
+show-advanced-permissions=true
 
 [org/gnome/simple-scan]
 jpeg-quality=90
