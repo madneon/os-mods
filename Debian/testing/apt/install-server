@@ -8,3 +8,4 @@ dialog
 curl
 net-tools
 rsync
+pv
