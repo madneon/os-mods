@@ -39,10 +39,10 @@ style-scheme='oblivion'
 folder-time-resolution=1
 vc-commit-margin=80
 
-[org/gnome/nemo/icon-view]
+[org/nemo/icon-view]
 captions=['size', 'none', 'none']
 
-[org/gnome/nemo/list-view]
+[org/nemo/list-view]
 default-visible-columns=['name', 'size', 'owner', 'group', 'permissions', 'date_modified_with_time']
 default-zoom-level='small'
 use-tree-view=true
@@ -50,7 +50,7 @@ use-tree-view=true
 [org/nemo/compact-view]
 default-zoom-level='small'
 
-[org/gnome/nemo/preferences]
+[org/nemo/preferences]
 default-folder-viewer='list-view'
 start-with-dual-pane=true
 click-double-parent-folder=true
