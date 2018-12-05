@@ -44,7 +44,7 @@ captions=['size', 'none', 'none']
 
 [org/nemo/list-view]
 default-visible-columns=['name', 'size', 'owner', 'group', 'permissions', 'date_modified_with_time']
-default-zoom-level='small'
+default-zoom-level='smaller'
 use-tree-view=true
 
 [org/nemo/compact-view]
@@ -52,7 +52,6 @@ default-zoom-level='small'
 
 [org/nemo/preferences]
 default-folder-viewer='list-view'
-start-with-dual-pane=true
 click-double-parent-folder=true
 close-device-view-on-device-eject=true
 date-format='iso'
