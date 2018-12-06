@@ -32,9 +32,6 @@ remove-old-temp-files=true
 old-files-age=uint32 3
 recent-files-max-age=7
 
-[org/gnome/desktop/sound]
-allow-volume-above-100-percent=true
-
 [org/gnome/settings-daemon/plugins/power]
 ambient-enabled=false
 idle-dim=true
