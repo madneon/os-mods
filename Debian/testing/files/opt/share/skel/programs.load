@@ -93,3 +93,42 @@ extrapolate=false
 
 [org/gnome/file-roller/general]
 compression-level='maximum'
+
+[com/gexperts/Tilix]
+new-window-inherit-state=true
+quake-specific-monitor=0
+quake-keep-on-top=false
+middle-click-close=true
+tab-position='top'
+window-style='normal'
+sidebar-on-right=false
+auto-hide-mouse=true
+background-image-mode='tile'
+prompt-on-close-process=false
+terminal-title-style='small'
+theme-variant='dark'
+paste-advanced-default=false
+control-scroll-zoom=true
+enable-wide-handle=false
+quake-show-on-all-workspaces=false
+use-tabs=false
+custom-hyperlinks=['"File\\s\\""(.+)\\""\\,\\sline\\s(\\d+)","subl ""$1:$2""",false', '(.+[\\.[hx]):(\\d+)+: characters (\\d+)-,"subl ""$1:$2:$3""",false']
+focus-follow-mouse=false
+terminal-title-show-when-single=false
+warn-vte-config-issue=false
+
+[com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+foreground-color='#F8F8F2'
+visible-name='Default'
+login-shell=true
+palette=['#272822', '#F92672', '#A6E22E', '#F4BF75', '#66D9EF', '#AE81FF', '#A1EFE4', '#F8F8F2', '#75715E', '#F92672', '#A6E22E', '#F4BF75', '#66D9EF', '#AE81FF', '#A1EFE4', '#F9F8F5']
+badge-color-set=false
+default-size-rows=32
+default-size-columns=120
+use-system-font=false
+cursor-colors-set=false
+highlight-colors-set=false
+use-theme-colors=false
+bold-color-set=false
+font='Monospace 10'
+background-color='#272822'

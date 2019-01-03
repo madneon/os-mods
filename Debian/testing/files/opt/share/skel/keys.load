@@ -83,7 +83,7 @@ xkb-options=['kpdl:dot']
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Super>t'
 name='Terminal'
-command='gnome-terminal'
+command='x-terminal-emulator'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
 binding='<Super>z'
@@ -128,3 +128,20 @@ custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybin
 toggle-application-view=@as []
 toggle-message-tray=['<Super>m']
 toggle-overview=@as []
+
+[com/gexperts/Tilix/keybindings]
+win-switch-to-session-3='<Primary>3'
+win-switch-to-session-4='<Primary>4'
+win-switch-to-session-5='<Primary>5'
+win-switch-to-session-6='<Primary>6'
+win-switch-to-session-7='<Primary>7'
+terminal-zoom-normal='<Primary>parenright'
+win-switch-to-session-8='<Primary>8'
+win-switch-to-session-9='<Primary>9'
+terminal-zoom-in='<Primary>plus'
+win-view-sidebar='F1'
+session-name='<Primary><Alt>n'
+terminal-zoom-out='<Primary>underscore'
+win-switch-to-session-0='<Primary>0'
+win-switch-to-session-1='<Primary>1'
+win-switch-to-session-2='<Primary>2'
