@@ -57,6 +57,9 @@ close-device-view-on-device-eject=true
 date-format='iso'
 show-advanced-permissions=true
 
+[org/nemo/window-state]
+start-with-menu-bar=false
+
 [org/gnome/simple-scan]
 jpeg-quality=90
 text-dpi=300
