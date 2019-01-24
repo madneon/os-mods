@@ -101,16 +101,21 @@ command='/usr/bin/firefox --new-instance --private-window'
 name='Firefox private'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
-binding='<Super>u'
+binding='<Super><Shift>u'
 command='unison-gtk'
 name='Unison'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5]
+binding='<Super>u'
+command='/opt/bin/unison-sync'
+name='Unison-sync'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6]
 binding='<Super>a'
 command='/usr/bin/subl'
 name='Sublime Text'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6]
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7]
 binding='<Super>x'
 command='/usr/bin/keepassx'
 name='KeePassX'
@@ -122,7 +127,7 @@ email='<Super>e'
 calculator='<Super>c'
 www=''
 control-center='<Super>o'
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/']
 
 [org/gnome/shell/keybindings]
 toggle-application-view=@as []
