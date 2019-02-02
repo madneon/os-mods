@@ -57,9 +57,6 @@ close-device-view-on-device-eject=true
 date-format='iso'
 show-advanced-permissions=true
 
-[org/nemo/window-state]
-start-with-menu-bar=false
-
 [org/gnome/simple-scan]
 jpeg-quality=90
 text-dpi=300
@@ -115,10 +112,13 @@ control-scroll-zoom=true
 enable-wide-handle=false
 quake-show-on-all-workspaces=false
 use-tabs=false
-custom-hyperlinks=['"File\\s\\""(.+)\\""\\,\\sline\\s(\\d+)","subl ""$1:$2""",false', '(.+[\\.[hx]):(\\d+)+: character[s]? (\\d+),"subl ""$1:$2:$3""",false']
+custom-hyperlinks=['(.+[\\.[hx]):(\\d+)+: character[s]? (\\d+),"subl ""$1:$2:$3""",false', '(.+[\\.[hx]):(\\d+)+: line[s]? (\\d+),"subl ""$1:$2""",false', '(.+): line? (\\d+),"subl ""$1:$2""",false', '"File\\s\\""(.+)\\""\\,\\sline\\s(\\d+)","subl ""$1:$2""",false']
+
 focus-follow-mouse=false
 terminal-title-show-when-single=false
 warn-vte-config-issue=false
+session-name='${id}'
+app-title='${directory}'
 
 [com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
 foreground-color='#F8F8F2'
@@ -133,5 +133,5 @@ cursor-colors-set=false
 highlight-colors-set=false
 use-theme-colors=false
 bold-color-set=false
-font='Monospace 10'
+font='Monospace 9'
 background-color='#272822'

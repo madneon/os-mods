@@ -9,3 +9,4 @@ curl
 net-tools
 rsync
 pv
+wakeonlan
