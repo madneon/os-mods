@@ -112,7 +112,8 @@ control-scroll-zoom=true
 enable-wide-handle=false
 quake-show-on-all-workspaces=false
 use-tabs=false
-custom-hyperlinks=['(.+[\\.[hx]):(\\d+)+: character[s]? (\\d+),"subl ""$1:$2:$3""",false', '(.+[\\.[hx]):(\\d+)+: line[s]? (\\d+),"subl ""$1:$2""",false', '(.+): line? (\\d+),"subl ""$1:$2""",false', '"File\\s\\""(.+)\\""\\,\\sline\\s(\\d+)","subl ""$1:$2""",false']
+custom-hyperlinks=['(.+[\\.[hx]):(\\d+)+: character[s]? (\\d+),"subl ""$1:$2:$3""",false', '(.+[\\.[hx]):(\\d+)+: line[s]? (\\d+),"subl ""$1:$2""",false', '(.+): line? (\\d+),"subl ""$1:$2""",false', '"File\\s\\""(.+)\\""\\,\\sline\\s(\\d+)","subl ""$1:$2""",false', 'CONFLICT.+conflict in (.+),"subl ""$1""",false']
+
 
 focus-follow-mouse=false
 terminal-title-show-when-single=false
