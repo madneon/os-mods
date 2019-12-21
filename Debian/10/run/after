@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo /usr/sbin/locale-gen
 sudo update-alternatives --set x-terminal-emulator /usr/bin/tilix.wrapper
 sudo update-alternatives --set editor /usr/bin/mcedit
 sudo update-alternatives --set pager /usr/bin/most
