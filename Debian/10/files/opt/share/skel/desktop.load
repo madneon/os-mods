@@ -69,7 +69,7 @@ antialiasing='grayscale'
 [org/gnome/desktop/wm/preferences]
 resize-with-right-button=true
 auto-raise=true
-mouse-button-modifier='<Alt>'
+mouse-button-modifier='<Super>'
 action-middle-click-titlebar='minimize'
 
 [org/gnome/mutter]
