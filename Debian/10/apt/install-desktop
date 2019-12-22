@@ -17,6 +17,14 @@ fatresize
 firefox-esr-l10n-pl
 firmware-iwlwifi
 genisoimage
+gimp
+gimp-data-extras
+gimp-dcraw
+gimp-gap
+gimp-plugin-registry
+gimp-texturize
+gimp-lensfun
+gimp-gluas gimp-gmic
 git
 gnome-shell-extension-autohidetopbar
 gnome-shell-extension-impatience
