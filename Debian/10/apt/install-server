@@ -11,3 +11,4 @@ rsync
 pv
 wakeonlan
 bc
+sshfs
