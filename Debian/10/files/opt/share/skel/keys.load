@@ -1,10 +1,10 @@
-[org/gnome/terminal/legacy/keybindings]
+f[org/gnome/terminal/legacy/keybindings]
 help='disabled'
 
 [org/gnome/GPaste]
 pop=''
-make-password=''
-show-history=''
+make-password='<Super>H'
+show-history='<Super>F'
 sync-clipboard-to-primary=''
 sync-primary-to-clipboard=''
 upload=''
@@ -91,31 +91,26 @@ name='System Monitor'
 command='gnome-system-monitor'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
-binding='<Super>w'
-command='/usr/bin/firefox --new-instance'
-name='Firefox (fix dark theme)'
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
 binding='<Shift><Super>w'
-command='/usr/bin/firefox --new-instance --private-window'
+command='/usr/bin/firefox --private-window'
 name='Firefox private'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
 binding='<Super><Shift>u'
 command='unison-gtk'
 name='Unison'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5]
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
 binding='<Super>u'
 command='/opt/bin/unison-sync'
 name='Unison-sync'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6]
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5]
 binding='<Super>a'
 command='/usr/bin/subl'
 name='Sublime Text'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7]
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6]
 binding='<Super>x'
 command='/usr/bin/keepassx'
 name='KeePassX'
@@ -125,9 +120,8 @@ help=''
 home='<Super>q'
 email='<Super>e'
 calculator='<Super>c'
-www=''
-control-center='<Super>o'
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/']
+www='<Super>w'
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/']
 
 [org/gnome/shell/keybindings]
 toggle-application-view=@as []

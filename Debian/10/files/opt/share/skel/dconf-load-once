@@ -10,3 +10,4 @@ done
 if [ -f ~/.config/autostart/dconf-load-once.desktop ]; then
 	rm ~/.config/autostart/dconf-load-once.desktop
 fi
+

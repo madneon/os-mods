@@ -6,3 +6,4 @@ MYPATH=`dirname "$MYPATH"`
 for f in "$MYPATH"/*.load; do
 	dconf load / < "$f"
 done
+
