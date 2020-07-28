@@ -71,7 +71,6 @@ openclipart
 openclipart-libreoffice
 openclipart-png
 openssh-server
-p7zip-rar
 patch
 pidgin
 pidgin-encryption
@@ -84,7 +83,6 @@ pm-utils
 pv
 rabbitvcs-core
 rabbitvcs-gedit
-rar
 recordmydesktop
 rsync
 samba
@@ -96,16 +94,14 @@ tilix
 tor
 transmission
 transmission-gtk
-ttf-mscorefonts-installer
 unison
 unison-gtk
-unrar
 vlc
 vlc-plugin-access-extra
 vlc-plugin-samba
 wakeonlan
 whois
 wine
-winetricks
 wipe
 zip
+
