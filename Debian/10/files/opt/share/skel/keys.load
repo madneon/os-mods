@@ -1,4 +1,4 @@
-f[org/gnome/terminal/legacy/keybindings]
+[org/gnome/terminal/legacy/keybindings]
 help='disabled'
 
 [org/gnome/GPaste]
