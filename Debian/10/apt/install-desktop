@@ -84,7 +84,6 @@ rabbitvcs-core
 rabbitvcs-gedit
 recordmydesktop
 rsync
-samba
 ssh
 sshfs
 thunderbird
@@ -97,10 +96,8 @@ unison
 unison-gtk
 vlc
 vlc-plugin-access-extra
-vlc-plugin-samba
 wakeonlan
 whois
 wine
 wipe
 zip
-
