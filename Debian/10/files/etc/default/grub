@@ -30,3 +30,5 @@ GRUB_DISABLE_RECOVERY="true"
 
 # Uncomment to get a beep at grub start
 #GRUB_INIT_TUNE="480 440 1"
+
+GRUB_CMDLINE_LINUX_DEFAULT="raid0.default_layout=2"
