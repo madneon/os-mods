@@ -1,4 +1,4 @@
 #!/bin/bash
 
 sudo update-grub
-cd /opt/lib/os-deploy/ && git pull
+cd /opt/lib/os-deploy/ && git pull && /opt/lib/os-deploy/bin/deploy
