@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [[ "$1" =~ en.*|eth.* ]]; then
+	case "$2" in
+		up)
+			logger WiFi auto-off..
+			nmcli radio wifi off
+			;;
+		down)
+			logger WiFi auto-on..
+			nmcli radio wifi on
+			;;
+	esac
+fi
