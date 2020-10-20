@@ -32,12 +32,25 @@ fi
 #esac
 
 # enable bash completion in interactive shells
-if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-  fi
+#if ! shopt -oq posix; then
+#  if [ -f /usr/share/bash-completion/bash_completion ]; then
+#    . /usr/share/bash-completion/bash_completion
+#  elif [ -f /etc/bash_completion ]; then
+#    . /etc/bash_completion
+#  fi
+#fi
+
+# sudo hint
+if [ ! -e "$HOME/.sudo_as_admin_successful" ] && [ ! -e "$HOME/.hushlogin" ] ; then
+    case " $(groups) " in *\ admin\ *|*\ sudo\ *)
+    if [ -x /usr/bin/sudo ]; then
+	cat <<-EOF
+	To run a command as administrator (user "root"), use "sudo <command>".
+	See "man sudo_root" for details.
+	
+	EOF
+    fi
+    esac
 fi
 
 # if the command-not-found package is installed, use it

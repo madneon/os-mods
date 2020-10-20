@@ -94,6 +94,7 @@
 # ca_IT.UTF-8 UTF-8
 # ce_RU UTF-8
 # chr_US UTF-8
+# ckb_IQ UTF-8
 # cmn_TW UTF-8
 # crh_UA UTF-8
 # cs_CZ ISO-8859-2
@@ -167,6 +168,7 @@ en_US.UTF-8 UTF-8
 # en_ZW ISO-8859-1
 # en_ZW.UTF-8 UTF-8
 # eo UTF-8
+# eo_US.UTF-8 UTF-8
 # es_AR ISO-8859-1
 # es_AR.UTF-8 UTF-8
 # es_BO ISO-8859-1
@@ -337,6 +339,7 @@ en_US.UTF-8 UTF-8
 # ml_IN UTF-8
 # mn_MN UTF-8
 # mni_IN UTF-8
+# mnw_MM UTF-8
 # mr_IN UTF-8
 # ms_MY ISO-8859-1
 # ms_MY.UTF-8 UTF-8
@@ -400,6 +403,7 @@ pl_PL.UTF-8 UTF-8
 # sc_IT UTF-8
 # sd_IN UTF-8
 # sd_IN@devanagari UTF-8
+# sd_PK UTF-8
 # se_NO UTF-8
 # sgs_LT UTF-8
 # shn_MM UTF-8
@@ -462,6 +466,7 @@ pl_PL.UTF-8 UTF-8
 # tt_RU UTF-8
 # tt_RU@iqtelif UTF-8
 # ug_CN UTF-8
+# ug_CN@latin UTF-8
 # uk_UA KOI8-U
 # uk_UA.UTF-8 UTF-8
 # unm_US UTF-8
