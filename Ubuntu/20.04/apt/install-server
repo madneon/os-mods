@@ -13,3 +13,4 @@ wakeonlan
 bc
 sshfs
 git
+lshw
